@@ -1,8 +1,12 @@
 function initCamera() {
   // Uncomment and fill in the correct selectors below.
   // capture($('<Your code here>'),
-  //        $('<Your code here>'),
-  //        $('<Your code here>'));
+  <div class="col">
+    <div id="camera" class="profile" style="max-width: 250px;">
+      <video autoplay id="camera-video"></video>
+        <button id = "camera-button" class="btn btn-primary">Take Photo</button>
+    <div>
+  </div>
 
   // For Reference:
   // capture($('#camera-video'),
